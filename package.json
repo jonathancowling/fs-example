@@ -1,0 +1,21 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npx jest --watch server.test.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "mock-fs": "^4.13.0",
+    "supertest": "^4.0.2"
+  }
+}
